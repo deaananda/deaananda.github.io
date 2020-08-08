@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+    padding: 0;
+    font-family: "Segoe UI";
+    box-sizing: border-box;
+}
+.navbar-nav {
+	margin-left: auto;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	background-color: #ffc107;
+	color : white;
+}
+.active{
+	background-color: #ffc107;
+	color : white;
+}
+.masthead {
+	max-width: 100%;
+  height: 70vh;
+  background-image: url('../img/header-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box{
+	background:rgba(0, 0, 0 , 0.7);
+}
+
+.masthead hr{
+	background-color: white;
+	width: 150px;
+	margin-left: 590px;
+	margin-right: 590px;
+}
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 400px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
